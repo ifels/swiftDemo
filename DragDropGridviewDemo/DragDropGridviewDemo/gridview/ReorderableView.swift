@@ -16,6 +16,8 @@ class ReorderableView: UIView, UIGestureRecognizerDelegate {
     var pan: UIPanGestureRecognizer?
     var gridPosition: GridPosition?
     
+    
+    var curScale: CGFloat = 1.0
     let animationDuration: TimeInterval = 0.2
     let reorderModeScale: CGFloat = 1.1
     let reorderModeAlpha: CGFloat = 0.6
@@ -66,6 +68,7 @@ class ReorderableView: UIView, UIGestureRecognizerDelegate {
         UIView.animate(withDuration: animationDuration, animations: { () -> Void in
             self.alpha = self.reorderModeAlpha
             self.setScale(self.reorderModeScale, y: self.reorderModeScale, z: self.reorderModeScale)
+            self.curScale = self.reorderModeScale
         })
     }
     
@@ -73,6 +76,7 @@ class ReorderableView: UIView, UIGestureRecognizerDelegate {
         UIView.animate(withDuration: animationDuration, animations: { () -> Void in
             self.alpha = 1
             self.setScale(1, y: 1, z: 1)
+            self.curScale = 1.0
         }, completion: { finished -> Void in
             self.removePan()
         })

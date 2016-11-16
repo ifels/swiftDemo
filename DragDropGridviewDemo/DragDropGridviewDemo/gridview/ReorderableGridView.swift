@@ -222,12 +222,13 @@ class ReorderableGridView: UIScrollView, Reorderable {
     func gridPositionToViewPosition (_ gridPosition: GridPosition) -> CGPoint {
         let col = gridPosition.col()
         let x: CGFloat = CGFloat(col) * itemWidth! + CGFloat(col)*horizontalPadding! + leftPadding
-        var y : CGFloat = 0
+        var y : CGFloat = topPadding
         
         if let up = gridPosition.up() {
-            y = viewAtGridPosition(up)!.bottom + verticalPadding!
+            let upView = viewAtGridPosition(up)!
+            print("upView.curScale = \(upView.curScale)")
+            y = upView.bottom/upView.curScale + verticalPadding!
         }
-        y = y + topPadding
         
         return CGPoint (x: x, y: y)
     }
@@ -286,7 +287,7 @@ class ReorderableGridView: UIScrollView, Reorderable {
     }
     
     func didReorderedView (_ view: ReorderableView, pan: UIPanGestureRecognizer) {
-        print("didReorderedView..")
+        //print("didReorderedView..")
         if !draggable {
             return
         } else {
@@ -315,7 +316,7 @@ class ReorderableGridView: UIScrollView, Reorderable {
                 }
                 
                 if otherView.frame.contains(location) {
-                    //println("im at \(col), \(row), im " + view.gridPosition!.string())
+                    print("im at \(col), \(row), im " + view.gridPosition!.string())
                     insertViewAtPosition(view, position: gridPos)
                 }
             }

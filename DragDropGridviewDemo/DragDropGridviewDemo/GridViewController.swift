@@ -14,7 +14,7 @@ import SnapKit
 
 class GridViewController: UIViewController {
     
-    let itemWidth:CGFloat = 70
+    let itemWidth:CGFloat = 150
     
     var gridView : ReorderableGridView?
     var itemCount: Int = 0
@@ -53,7 +53,7 @@ class GridViewController: UIViewController {
         gridView = ReorderableGridView(frame: frame, itemWidth: itemWidth, verticalPadding: 20)
         view.addSubview(gridView!)
         
-        for i in 0..<11 {
+        for i in 0..<4 {
             gridView!.addReorderableView(itemView(i))
         }
     }
