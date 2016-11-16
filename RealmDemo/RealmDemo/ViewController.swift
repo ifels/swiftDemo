@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         
         // Multi-threading
         //DispatchQueue.global().async {
-        var personalResults = realm.objects(Person.self)
+        var personalResults = realm.objects(Person.self).sorted(byProperty: "name", ascending: true)
         print("Number of personals \(personalResults.count)")
         
         var dp : Person?

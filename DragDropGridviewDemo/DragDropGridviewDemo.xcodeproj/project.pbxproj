@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94BB630F1DDBFEA9007F58C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB630E1DDBFEA9007F58C4 /* AppDelegate.swift */; };
+		94BB63111DDBFEA9007F58C4 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB63101DDBFEA9007F58C4 /* GridViewController.swift */; };
+		94BB63171DDBFEA9007F58C4 /* DragDropGridviewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94BB63151DDBFEA9007F58C4 /* DragDropGridviewDemo.xcdatamodeld */; };
+		94BB63191DDBFEA9007F58C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BB63181DDBFEA9007F58C4 /* Assets.xcassets */; };
+		94BB631C1DDBFEA9007F58C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BB631A1DDBFEA9007F58C4 /* LaunchScreen.storyboard */; };
+		94BB63271DDBFEA9007F58C4 /* DragDropGridviewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB63261DDBFEA9007F58C4 /* DragDropGridviewDemoTests.swift */; };
+		94BB63321DDBFEA9007F58C4 /* DragDropGridviewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB63311DDBFEA9007F58C4 /* DragDropGridviewDemoUITests.swift */; };
+		94BB63441DDC00A9007F58C4 /* GridPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB63401DDC00A9007F58C4 /* GridPosition.swift */; };
+		94BB63461DDC00A9007F58C4 /* ReorderableGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB63421DDC00A9007F58C4 /* ReorderableGridView.swift */; };
+		94BB63471DDC00A9007F58C4 /* ReorderableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB63431DDC00A9007F58C4 /* ReorderableView.swift */; };
+		94BB634C1DDC019D007F58C4 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB63491DDC019D007F58C4 /* UIColorExt.swift */; };
+		94BB634D1DDC019D007F58C4 /* UIFontExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB634A1DDC019D007F58C4 /* UIFontExt.swift */; };
+		94BB634E1DDC019D007F58C4 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB634B1DDC019D007F58C4 /* UIViewExt.swift */; };
+		A65FF206A48CF4E7760EE484 /* Pods_DragDropGridviewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFAEFEA604388DCEB12DB83 /* Pods_DragDropGridviewDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94BB63231DDBFEA9007F58C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94BB63031DDBFEA9007F58C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94BB630A1DDBFEA9007F58C4;
+			remoteInfo = DragDropGridviewDemo;
+		};
+		94BB632E1DDBFEA9007F58C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94BB63031DDBFEA9007F58C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94BB630A1DDBFEA9007F58C4;
+			remoteInfo = DragDropGridviewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CFAEFEA604388DCEB12DB83 /* Pods_DragDropGridviewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragDropGridviewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C401E35221CE029EAB6F9C1 /* Pods-DragDropGridviewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragDropGridviewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragDropGridviewDemo/Pods-DragDropGridviewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		94BB630B1DDBFEA9007F58C4 /* DragDropGridviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragDropGridviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BB630E1DDBFEA9007F58C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94BB63101DDBFEA9007F58C4 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		94BB63161DDBFEA9007F58C4 /* DragDropGridviewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DragDropGridviewDemo.xcdatamodel; sourceTree = "<group>"; };
+		94BB63181DDBFEA9007F58C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94BB631B1DDBFEA9007F58C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94BB631D1DDBFEA9007F58C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BB63221DDBFEA9007F58C4 /* DragDropGridviewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropGridviewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BB63261DDBFEA9007F58C4 /* DragDropGridviewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDropGridviewDemoTests.swift; sourceTree = "<group>"; };
+		94BB63281DDBFEA9007F58C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BB632D1DDBFEA9007F58C4 /* DragDropGridviewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropGridviewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BB63311DDBFEA9007F58C4 /* DragDropGridviewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDropGridviewDemoUITests.swift; sourceTree = "<group>"; };
+		94BB63331DDBFEA9007F58C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BB63401DDC00A9007F58C4 /* GridPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridPosition.swift; path = gridview/GridPosition.swift; sourceTree = "<group>"; };
+		94BB63421DDC00A9007F58C4 /* ReorderableGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReorderableGridView.swift; path = gridview/ReorderableGridView.swift; sourceTree = "<group>"; };
+		94BB63431DDC00A9007F58C4 /* ReorderableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReorderableView.swift; path = gridview/ReorderableView.swift; sourceTree = "<group>"; };
+		94BB63491DDC019D007F58C4 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExt.swift; path = extension/UIColorExt.swift; sourceTree = "<group>"; };
+		94BB634A1DDC019D007F58C4 /* UIFontExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFontExt.swift; path = extension/UIFontExt.swift; sourceTree = "<group>"; };
+		94BB634B1DDC019D007F58C4 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExt.swift; path = extension/UIViewExt.swift; sourceTree = "<group>"; };
+		9C3AD59E2A608D51BAE8B3BE /* Pods-DragDropGridviewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragDropGridviewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragDropGridviewDemo/Pods-DragDropGridviewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94BB63081DDBFEA9007F58C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65FF206A48CF4E7760EE484 /* Pods_DragDropGridviewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BB631F1DDBFEA9007F58C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BB632A1DDBFEA9007F58C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94BB63021DDBFEA9007F58C4 = {
+			isa = PBXGroup;
+			children = (
+				94BB630D1DDBFEA9007F58C4 /* DragDropGridviewDemo */,
+				94BB63251DDBFEA9007F58C4 /* DragDropGridviewDemoTests */,
+				94BB63301DDBFEA9007F58C4 /* DragDropGridviewDemoUITests */,
+				94BB630C1DDBFEA9007F58C4 /* Products */,
+				AA56A2B71DB81ED752A98DEF /* Pods */,
+				DF1F9E9F8CB85F37A64ED419 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94BB630C1DDBFEA9007F58C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94BB630B1DDBFEA9007F58C4 /* DragDropGridviewDemo.app */,
+				94BB63221DDBFEA9007F58C4 /* DragDropGridviewDemoTests.xctest */,
+				94BB632D1DDBFEA9007F58C4 /* DragDropGridviewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94BB630D1DDBFEA9007F58C4 /* DragDropGridviewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				94BB63481DDC015E007F58C4 /* extension */,
+				94BB633F1DDBFF2C007F58C4 /* gridview */,
+				94BB630E1DDBFEA9007F58C4 /* AppDelegate.swift */,
+				94BB63101DDBFEA9007F58C4 /* GridViewController.swift */,
+				94BB63181DDBFEA9007F58C4 /* Assets.xcassets */,
+				94BB631A1DDBFEA9007F58C4 /* LaunchScreen.storyboard */,
+				94BB631D1DDBFEA9007F58C4 /* Info.plist */,
+				94BB63151DDBFEA9007F58C4 /* DragDropGridviewDemo.xcdatamodeld */,
+			);
+			path = DragDropGridviewDemo;
+			sourceTree = "<group>";
+		};
+		94BB63251DDBFEA9007F58C4 /* DragDropGridviewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				94BB63261DDBFEA9007F58C4 /* DragDropGridviewDemoTests.swift */,
+				94BB63281DDBFEA9007F58C4 /* Info.plist */,
+			);
+			path = DragDropGridviewDemoTests;
+			sourceTree = "<group>";
+		};
+		94BB63301DDBFEA9007F58C4 /* DragDropGridviewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94BB63311DDBFEA9007F58C4 /* DragDropGridviewDemoUITests.swift */,
+				94BB63331DDBFEA9007F58C4 /* Info.plist */,
+			);
+			path = DragDropGridviewDemoUITests;
+			sourceTree = "<group>";
+		};
+		94BB633F1DDBFF2C007F58C4 /* gridview */ = {
+			isa = PBXGroup;
+			children = (
+				94BB63401DDC00A9007F58C4 /* GridPosition.swift */,
+				94BB63421DDC00A9007F58C4 /* ReorderableGridView.swift */,
+				94BB63431DDC00A9007F58C4 /* ReorderableView.swift */,
+			);
+			name = gridview;
+			sourceTree = "<group>";
+		};
+		94BB63481DDC015E007F58C4 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				94BB63491DDC019D007F58C4 /* UIColorExt.swift */,
+				94BB634A1DDC019D007F58C4 /* UIFontExt.swift */,
+				94BB634B1DDC019D007F58C4 /* UIViewExt.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		AA56A2B71DB81ED752A98DEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C401E35221CE029EAB6F9C1 /* Pods-DragDropGridviewDemo.debug.xcconfig */,
+				9C3AD59E2A608D51BAE8B3BE /* Pods-DragDropGridviewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF1F9E9F8CB85F37A64ED419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CFAEFEA604388DCEB12DB83 /* Pods_DragDropGridviewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94BB630A1DDBFEA9007F58C4 /* DragDropGridviewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BB63361DDBFEA9007F58C4 /* Build configuration list for PBXNativeTarget "DragDropGridviewDemo" */;
+			buildPhases = (
+				D178E531F6F5C14E3A6723F2 /* [CP] Check Pods Manifest.lock */,
+				94BB63071DDBFEA9007F58C4 /* Sources */,
+				94BB63081DDBFEA9007F58C4 /* Frameworks */,
+				94BB63091DDBFEA9007F58C4 /* Resources */,
+				73E09CAB591442DDF3893227 /* [CP] Embed Pods Frameworks */,
+				0A7282E06E8212383A38398F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragDropGridviewDemo;
+			productName = DragDropGridviewDemo;
+			productReference = 94BB630B1DDBFEA9007F58C4 /* DragDropGridviewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94BB63211DDBFEA9007F58C4 /* DragDropGridviewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BB63391DDBFEA9007F58C4 /* Build configuration list for PBXNativeTarget "DragDropGridviewDemoTests" */;
+			buildPhases = (
+				94BB631E1DDBFEA9007F58C4 /* Sources */,
+				94BB631F1DDBFEA9007F58C4 /* Frameworks */,
+				94BB63201DDBFEA9007F58C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94BB63241DDBFEA9007F58C4 /* PBXTargetDependency */,
+			);
+			name = DragDropGridviewDemoTests;
+			productName = DragDropGridviewDemoTests;
+			productReference = 94BB63221DDBFEA9007F58C4 /* DragDropGridviewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94BB632C1DDBFEA9007F58C4 /* DragDropGridviewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BB633C1DDBFEA9007F58C4 /* Build configuration list for PBXNativeTarget "DragDropGridviewDemoUITests" */;
+			buildPhases = (
+				94BB63291DDBFEA9007F58C4 /* Sources */,
+				94BB632A1DDBFEA9007F58C4 /* Frameworks */,
+				94BB632B1DDBFEA9007F58C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94BB632F1DDBFEA9007F58C4 /* PBXTargetDependency */,
+			);
+			name = DragDropGridviewDemoUITests;
+			productName = DragDropGridviewDemoUITests;
+			productReference = 94BB632D1DDBFEA9007F58C4 /* DragDropGridviewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94BB63031DDBFEA9007F58C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ifels;
+				TargetAttributes = {
+					94BB630A1DDBFEA9007F58C4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					94BB63211DDBFEA9007F58C4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94BB630A1DDBFEA9007F58C4;
+					};
+					94BB632C1DDBFEA9007F58C4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94BB630A1DDBFEA9007F58C4;
+					};
+				};
+			};
+			buildConfigurationList = 94BB63061DDBFEA9007F58C4 /* Build configuration list for PBXProject "DragDropGridviewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94BB63021DDBFEA9007F58C4;
+			productRefGroup = 94BB630C1DDBFEA9007F58C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94BB630A1DDBFEA9007F58C4 /* DragDropGridviewDemo */,
+				94BB63211DDBFEA9007F58C4 /* DragDropGridviewDemoTests */,
+				94BB632C1DDBFEA9007F58C4 /* DragDropGridviewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94BB63091DDBFEA9007F58C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BB631C1DDBFEA9007F58C4 /* LaunchScreen.storyboard in Resources */,
+				94BB63191DDBFEA9007F58C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BB63201DDBFEA9007F58C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BB632B1DDBFEA9007F58C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A7282E06E8212383A38398F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragDropGridviewDemo/Pods-DragDropGridviewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73E09CAB591442DDF3893227 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragDropGridviewDemo/Pods-DragDropGridviewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D178E531F6F5C14E3A6723F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94BB63071DDBFEA9007F58C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BB63441DDC00A9007F58C4 /* GridPosition.swift in Sources */,
+				94BB634C1DDC019D007F58C4 /* UIColorExt.swift in Sources */,
+				94BB634E1DDC019D007F58C4 /* UIViewExt.swift in Sources */,
+				94BB63461DDC00A9007F58C4 /* ReorderableGridView.swift in Sources */,
+				94BB63171DDBFEA9007F58C4 /* DragDropGridviewDemo.xcdatamodeld in Sources */,
+				94BB634D1DDC019D007F58C4 /* UIFontExt.swift in Sources */,
+				94BB63111DDBFEA9007F58C4 /* GridViewController.swift in Sources */,
+				94BB630F1DDBFEA9007F58C4 /* AppDelegate.swift in Sources */,
+				94BB63471DDC00A9007F58C4 /* ReorderableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BB631E1DDBFEA9007F58C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BB63271DDBFEA9007F58C4 /* DragDropGridviewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BB63291DDBFEA9007F58C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BB63321DDBFEA9007F58C4 /* DragDropGridviewDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94BB63241DDBFEA9007F58C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94BB630A1DDBFEA9007F58C4 /* DragDropGridviewDemo */;
+			targetProxy = 94BB63231DDBFEA9007F58C4 /* PBXContainerItemProxy */;
+		};
+		94BB632F1DDBFEA9007F58C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94BB630A1DDBFEA9007F58C4 /* DragDropGridviewDemo */;
+			targetProxy = 94BB632E1DDBFEA9007F58C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94BB631A1DDBFEA9007F58C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94BB631B1DDBFEA9007F58C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94BB63341DDBFEA9007F58C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94BB63351DDBFEA9007F58C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94BB63371DDBFEA9007F58C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C401E35221CE029EAB6F9C1 /* Pods-DragDropGridviewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragDropGridviewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifels.snapkit.drawer.DragDropGridviewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94BB63381DDBFEA9007F58C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3AD59E2A608D51BAE8B3BE /* Pods-DragDropGridviewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragDropGridviewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifels.snapkit.drawer.DragDropGridviewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94BB633A1DDBFEA9007F58C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DragDropGridviewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifels.snapkit.drawer.DragDropGridviewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragDropGridviewDemo.app/DragDropGridviewDemo";
+			};
+			name = Debug;
+		};
+		94BB633B1DDBFEA9007F58C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DragDropGridviewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifels.snapkit.drawer.DragDropGridviewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragDropGridviewDemo.app/DragDropGridviewDemo";
+			};
+			name = Release;
+		};
+		94BB633D1DDBFEA9007F58C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DragDropGridviewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifels.snapkit.drawer.DragDropGridviewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DragDropGridviewDemo;
+			};
+			name = Debug;
+		};
+		94BB633E1DDBFEA9007F58C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DragDropGridviewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifels.snapkit.drawer.DragDropGridviewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DragDropGridviewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94BB63061DDBFEA9007F58C4 /* Build configuration list for PBXProject "DragDropGridviewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BB63341DDBFEA9007F58C4 /* Debug */,
+				94BB63351DDBFEA9007F58C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BB63361DDBFEA9007F58C4 /* Build configuration list for PBXNativeTarget "DragDropGridviewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BB63371DDBFEA9007F58C4 /* Debug */,
+				94BB63381DDBFEA9007F58C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BB63391DDBFEA9007F58C4 /* Build configuration list for PBXNativeTarget "DragDropGridviewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BB633A1DDBFEA9007F58C4 /* Debug */,
+				94BB633B1DDBFEA9007F58C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BB633C1DDBFEA9007F58C4 /* Build configuration list for PBXNativeTarget "DragDropGridviewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BB633D1DDBFEA9007F58C4 /* Debug */,
+				94BB633E1DDBFEA9007F58C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94BB63151DDBFEA9007F58C4 /* DragDropGridviewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94BB63161DDBFEA9007F58C4 /* DragDropGridviewDemo.xcdatamodel */,
+			);
+			currentVersion = 94BB63161DDBFEA9007F58C4 /* DragDropGridviewDemo.xcdatamodel */;
+			path = DragDropGridviewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94BB63031DDBFEA9007F58C4 /* Project object */;
+}
