@@ -13,12 +13,13 @@ class ViewController: UIViewController,UIWebViewDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViews()
+        view.backgroundColor = UIColor.black
+        //setupViews()
+        setupViews2()
     }
     
     
     func setupViews(){
-        view.backgroundColor = UIColor.black
         
         let webView = UIWebView()
         view.addSubview(webView)
@@ -35,10 +36,27 @@ class ViewController: UIViewController,UIWebViewDelegate{
         }
         
         webView.delegate = self
-        //let url = "https://ifels.cn/hualipu_instruction.png"
-        let url = Bundle.main.path(forResource: "hualipu_about", ofType: "png");
-        let request = URLRequest(url: URL(string:url!)!)
+        let url = "https://ifels.cn/hualipu_instruction.png"
+        //let url = Bundle.main.path(forResource: "hualipu_about", ofType: "png")!;
+        //let timeout = Double(1000000.0)
+        //let request = URLRequest(url: URL(string:url)!, cachePolicy: URLRequest.CachePolicy.returnCacheDataElseLoad, timeoutInterval: timeout)
+        let request = URLRequest(url: URL(string:url)!)
         webView.loadRequest(request)
+    }
+    
+    func setupViews2(){
+        let imageView = UIImageView()
+        view.addSubview(imageView)
+        
+        
+        imageView.snp.makeConstraints{ make in
+            make.left.equalTo(view)
+            make.top.equalTo(view).offset(60)
+            make.right.equalTo(view)
+            make.bottom.equalTo(view)
+        }
+        
+        imageView.image = UIImage(named: "hualipu_instruction")
     }
     
 
