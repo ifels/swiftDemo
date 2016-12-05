@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'MaterialDemo' do
+    pod 'SnapKit', '~> 3.0.2'
+
+    pod 'NBMaterialDialogIOS',
+        :git => 'https://github.com/Gerst20051/NBMaterialDialogIOS.git',
+        :branch => 'swift3'
+
+end

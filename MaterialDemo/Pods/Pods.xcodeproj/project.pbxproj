@@ -1,0 +1,1278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B13F994443BB04A0F58B387D770073 /* UIColor+BFPaperColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 347E9410D392F5EB85D90E8621ED51CC /* UIColor+BFPaperColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09676D086A0326C6F02BFB9D6C7B5DC8 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FDE5FA3BAE9DEA9D76FB9A3CD1C584 /* ConstraintDescription.swift */; };
+		10D514ED9F517CA32E0E9A063D31B79E /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E507865875AB0F4FA97FF5148CC05C4 /* ConstraintView.swift */; };
+		16AB0017CE89CF644EA505211BE3E82B /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02152D18822725969BFB9D207B62BF0F /* ConstraintMakerFinalizable.swift */; };
+		1821C255B24FAA3FA5FE0D250F0A5AB1 /* UIFont+Roboto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D414A6EF7ADC2F76FED557B51788B0 /* UIFont+Roboto.swift */; };
+		1E7485AFDD78C266D9ED3E953D26A1E6 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F05E1D38B58F43129C1AD5ABE46DF2B /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2853243F97B82F9E85E905E7305FC8AD /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0378664B15960B701740E0D738EE1EAF /* BFPaperButton.m */; };
+		2A08AD9A90C61F4194E5BA60D66C7731 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E09FED5CFD581A4F1E323EFDCC11C4 /* ConstraintInsets.swift */; };
+		2CDAD0AD13D89C63B2DCA30083109CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705EC6D073B7E85BCF16142F0DD91FD8 /* Foundation.framework */; };
+		30A9A9A0F3C176C8DF6BA6F7C3E294AC /* NBMaterialToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BCE5FB73F4130AB15569444C7B8B0 /* NBMaterialToast.swift */; };
+		33CC9E82756170A93C5FEA134633881E /* NBMaterialAlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA89280F47C6C05F9BDFB78B443AE0 /* NBMaterialAlertDialog.swift */; };
+		33D7102EE8474DD8229A03BA5942612B /* NBMaterialCircularActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96CF5205263EE4FD5092D9024B1B3DD /* NBMaterialCircularActivityIndicator.swift */; };
+		33FFA75599B4E81B4B74B9584B5A85C4 /* UIColor_BFPaperColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7805E3328634150706FAAFC1CDCCE87E /* UIColor_BFPaperColors.framework */; };
+		349E09FC49E32998352582EF7CECB4AA /* NBMaterialSnackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBE5755AC92A2D9642602F259C9F5F1 /* NBMaterialSnackbar.swift */; };
+		36C44618EB88E5E7661431AEF63B8C1F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9CC1CEB4595DAAA78FF5C92FE29DB /* ConstraintRelatableTarget.swift */; };
+		375B714C330FD122B4A1F6AC2DC14E80 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC569FFA147E13BC3B3B313701D69D8D /* ConstraintLayoutSupport.swift */; };
+		3B6AB8E0C553D3F3C4931E8322A8F4A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705EC6D073B7E85BCF16142F0DD91FD8 /* Foundation.framework */; };
+		3E14695942A92177CFEF57ADA5CFD509 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990FB779B87EBFC41B635E099A10FDA /* ConstraintMultiplierTarget.swift */; };
+		3FFF40E6A3E0889CBA8A37D1CAC87DC8 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D2D94E5554F57414CDBB0F5523343 /* ConstraintItem.swift */; };
+		49963D30A5D30C4E0BBBFDD9AC9E26E3 /* UIColor_BFPaperColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7805E3328634150706FAAFC1CDCCE87E /* UIColor_BFPaperColors.framework */; };
+		4AB407694C5FBD60DA733756829FAB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705EC6D073B7E85BCF16142F0DD91FD8 /* Foundation.framework */; };
+		4C800271EE07135F568030E7C3A0A6AB /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F2C156504E754EF5BF3047F821E6A /* ConstraintMakerRelatable.swift */; };
+		4C8ECF0301EABCCEE395592CBA042E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705EC6D073B7E85BCF16142F0DD91FD8 /* Foundation.framework */; };
+		4D4EF7BE1ADD85182EA00B46E57A2E03 /* Pods-MaterialDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB649F4617F5E1D187B5EC36CF48E8 /* Pods-MaterialDemo-dummy.m */; };
+		56667EA851D24CE342F01DE9D42EA5AE /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4ACB1FA857C2853B6C3486C8AA9D4 /* ConstraintConfig.swift */; };
+		570E85506C0E119AE3F977F2FFD76AB5 /* UIColor+BFPaperColors.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7201D9BBE44893D35E0731E9F975C2 /* UIColor+BFPaperColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A6109F5E25603BD301A069AACBC3784 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6231A0FCF151321243D61529A257F742 /* Roboto-Regular.ttf */; };
+		6033C38D676E02CA0515CA038E50D4E7 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC1DA07F48051BD3932CBD55EC76302 /* ConstraintRelation.swift */; };
+		612A1C7DEDFAD7FD9250F9B4F051B8B6 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EC54305751909959B8282FE93E6D5 /* ConstraintDSL.swift */; };
+		6AD4D2F79BC822EAD340F9FCB952BEA1 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E78E252F505E6921E4020C1B2F2412F /* ConstraintMaker.swift */; };
+		6C9F8DFFA651D64E8A565899DDB9FDEE /* BFPaperButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C224FE217D5AC5E8DB0EA2343D3D65 /* BFPaperButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CFF138DEC462E4997DC07D99193C377 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164160C1D616284000602868F1AE0270 /* ConstraintView+Extensions.swift */; };
+		6EDAC498500B5D64D922A4C104E518E3 /* NBConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4818A7591324A9C58EFBC045269A09 /* NBConfig.swift */; };
+		6F9ADAAEECF6B6900887D688DDC3230E /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE5F2744BCFE1E18B69A72E8427CDF /* ConstraintMakerEditable.swift */; };
+		781B23177ECB41B6BB0DE0CC1F505294 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660394CAB5C78BEE33A59E160F2C660E /* ConstraintLayoutSupportDSL.swift */; };
+		7AD3CF076619C3C55691049FFC4DF585 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D715E5A776C043B5C5B7BBC955537878 /* Roboto-Medium.ttf */; };
+		7B3553E9657C9E71F7E4BE52E750907D /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA83E5BC92E92060E4D6FE38FED24A5 /* BFPaperButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F1B71483D1062AF7D2BD4819B95CA36 /* UIColor+BFPaperColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C97CA108D41A68ACDCC4E5792BDE738 /* UIColor+BFPaperColors-dummy.m */; };
+		8C4D5C3F5E3FB02B645DE2670A18C2C8 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E4130F20734475A440C379B4F7E711 /* ConstraintConstantTarget.swift */; };
+		92FF530CABA88A2D361AACF0FCBB3F94 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50877907CBB804CE0634744B570BDC /* Debugging.swift */; };
+		9C61FA034AE7B37D3EF3F055397EAB8B /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CD08D66606B12FE8CDEF308238E478 /* ConstraintMakerPriortizable.swift */; };
+		9D11D523975841B10BBFAA6E78DA1C99 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF38C95810D0994D7867CEF27F91A4C /* ConstraintViewDSL.swift */; };
+		9E3B1E426669990DCD893FE12A726B74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705EC6D073B7E85BCF16142F0DD91FD8 /* Foundation.framework */; };
+		AC417D048FEC6A46B8E2244C11870952 /* Pods-MaterialDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4602B3B919DC43DC99CDADB2DDF636A /* Pods-MaterialDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC58A95AAB66B972C4F26D1ABA20221A /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F08E00782CC4C756107F53BCBDAE445 /* UIColor+BFPaperColors.m */; };
+		AE0B195107A8D1643B36B3DC8A5C841E /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4FC1DF550C603F71EDA7ED8AF3A1E7 /* ConstraintPriorityTarget.swift */; };
+		AF6C3719A264000D7E64539E0C622F1F /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27356B37A7C976337984370568B947DE /* ConstraintOffsetTarget.swift */; };
+		AFAB1089C667960F06A010ECB096BDDC /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE051789B6A7B14B08602B9A5BCABF /* ConstraintLayoutGuide.swift */; };
+		BB9C7143356E86995E35667F94786AC9 /* BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A111569F5DB234B7296AB69ECB117F93 /* BFPaperButton-dummy.m */; };
+		BE9B5784654CC0B56E008F7F62DD13ED /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD451A3932F2A7459F64EAAD1DA59C9 /* LayoutConstraint.swift */; };
+		C7DD1BD24FE5973CBB800E366A2C6BAE /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7309DF4AEC6407B98BD9B3A4800C1 /* UILayoutSupport+Extensions.swift */; };
+		CEB35003198EB2410C5EBC477975DAAC /* UILayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76702617F7B81BB5B1BDFE0A4993702C /* UILayoutGuide+Extensions.swift */; };
+		D19BC64E40C9E1C1190588FAF63AEC9A /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD913EE0464CA5173DDF688023D378 /* ConstraintLayoutGuideDSL.swift */; };
+		E4D5CA087F9F73B2B650A64B54B81CE4 /* NBMaterialDialogIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E46A38B3B973DFD5AC08FB3A24813D61 /* NBMaterialDialogIOS-dummy.m */; };
+		E520C076C3FDFC401D07DAF8BF8180DD /* BFPaperButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63DCAA1E34142EC85CE4E724BB55104 /* BFPaperButton.framework */; };
+		EA4D40513EDFA3A7CD8E30584A032302 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2EC943A169D8BD148D8F47E5370F83 /* ConstraintMakerExtendable.swift */; };
+		EE536FF4EE0A5EB2C31CF9B898528074 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C34351BC2D431EA4273721B0C5383 /* ConstraintAttributes.swift */; };
+		F0E6FD40BE568323AF5FD4AC5F38BD93 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA27D68ECE943BBA40480FF738E2466 /* Constraint.swift */; };
+		F4372ED786948903633FF92187524E73 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39A993E3597B037B49DEF5EABB1B39 /* UIColor+Hex.swift */; };
+		F4925E332ABE29AD5D7A5B383ECDA07B /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCAE45AE551862CFC58B680A6DF545 /* ConstraintInsetTarget.swift */; };
+		F5D5490156ABE3E9126ADF5F3F2ACAB7 /* NBMaterialDialogIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BA5461C57C0300000CAD3BBE86CFBB /* NBMaterialDialogIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC34678F55B70570241F759D6EB9C7F /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66266264350D852577F88107A5047E00 /* SnapKit-dummy.m */; };
+		FC9BDC5E28619E82BC03D0B8C2DE2A9E /* NBMaterialLoadingDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04A786A95D4DB3E0BAD01FE392D54C2 /* NBMaterialLoadingDialog.swift */; };
+		FE1700BDA261F941441B501A7AC5DA47 /* NBMaterialDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625A7879B1FF865C22B39733E4669FC /* NBMaterialDialog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2610AC355FA8E0ED986D28A4434A6E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E15514FD13A96B937B0281C1A9A56C;
+			remoteInfo = SnapKit;
+		};
+		48073E3062E904EB4E20E4A60FE5154B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CDBCB4B0EB135DB2F250570A4FE96E9;
+			remoteInfo = BFPaperButton;
+		};
+		6036AFF35317B0FE2C1A0DBCE73CBB09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CDBCB4B0EB135DB2F250570A4FE96E9;
+			remoteInfo = BFPaperButton;
+		};
+		89FD0CC664DEF479FC3DF81844A041DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A642A68B133878F0911D8092B968B0;
+			remoteInfo = "UIColor+BFPaperColors";
+		};
+		DD52BE0A80A54981020BB309AB57EFBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90B60B7D0F97682704ED3531D9A28254;
+			remoteInfo = NBMaterialDialogIOS;
+		};
+		E596EEF1A8BFD91CC2238CAFAD8E3B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A642A68B133878F0911D8092B968B0;
+			remoteInfo = "UIColor+BFPaperColors";
+		};
+		EBF66D1E0EE16A2366862C06457D2773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A642A68B133878F0911D8092B968B0;
+			remoteInfo = "UIColor+BFPaperColors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02152D18822725969BFB9D207B62BF0F /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		0378664B15960B701740E0D738EE1EAF /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
+		03DD879999FF50CA74462DCF3A6A6D1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05905DA25521B5EA8A832F69D83619B5 /* NBMaterialDialogIOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NBMaterialDialogIOS.xcconfig; sourceTree = "<group>"; };
+		0C97CA108D41A68ACDCC4E5792BDE738 /* UIColor+BFPaperColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFPaperColors-dummy.m"; sourceTree = "<group>"; };
+		0D7F2C156504E754EF5BF3047F821E6A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		1625A7879B1FF865C22B39733E4669FC /* NBMaterialDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NBMaterialDialog.swift; path = Pod/Classes/NBMaterialDialog.swift; sourceTree = "<group>"; };
+		164160C1D616284000602868F1AE0270 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		16BA5461C57C0300000CAD3BBE86CFBB /* NBMaterialDialogIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NBMaterialDialogIOS-umbrella.h"; sourceTree = "<group>"; };
+		1BFC6E310AA5AC649958676C335385CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D50877907CBB804CE0634744B570BDC /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		1DDA42B0A45676A8EA9865C200F515E5 /* UIColor_BFPaperColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_BFPaperColors.framework; path = "UIColor+BFPaperColors.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC1DA07F48051BD3932CBD55EC76302 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		26289320CDFC0D42BBF2E63C098685ED /* Pods-MaterialDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MaterialDemo.modulemap"; sourceTree = "<group>"; };
+		27356B37A7C976337984370568B947DE /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		2B39A993E3597B037B49DEF5EABB1B39 /* UIColor+Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "Pod/Classes/UIColor+Hex.swift"; sourceTree = "<group>"; };
+		2D4FC1DF550C603F71EDA7ED8AF3A1E7 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		32CD08D66606B12FE8CDEF308238E478 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		33CC3205A54D29A7ED399DC16515C9E7 /* BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
+		347E9410D392F5EB85D90E8621ED51CC /* UIColor+BFPaperColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors-umbrella.h"; sourceTree = "<group>"; };
+		37E4130F20734475A440C379B4F7E711 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		3B5EC54305751909959B8282FE93E6D5 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		3F05E1D38B58F43129C1AD5ABE46DF2B /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		3FA83E5BC92E92060E4D6FE38FED24A5 /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
+		4FCD913EE0464CA5173DDF688023D378 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		56F7E0F1471BF3A2B8BBF8622F970431 /* BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFPaperButton.xcconfig; sourceTree = "<group>"; };
+		59E09FED5CFD581A4F1E323EFDCC11C4 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		5ABB649F4617F5E1D187B5EC36CF48E8 /* Pods-MaterialDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialDemo-dummy.m"; sourceTree = "<group>"; };
+		5F08E00782CC4C756107F53BCBDAE445 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFPaperColors.m"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
+		6231A0FCF151321243D61529A257F742 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Regular.ttf"; path = "Pod/Assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		660394CAB5C78BEE33A59E160F2C660E /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		66266264350D852577F88107A5047E00 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		68F4ACB1FA857C2853B6C3486C8AA9D4 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		69C224FE217D5AC5E8DB0EA2343D3D65 /* BFPaperButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-umbrella.h"; sourceTree = "<group>"; };
+		69C6C101A8A4BC37BE98F940D26AA14F /* NBMaterialDialogIOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NBMaterialDialogIOS-prefix.pch"; sourceTree = "<group>"; };
+		6AD451A3932F2A7459F64EAAD1DA59C9 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		6C0BCE5FB73F4130AB15569444C7B8B0 /* NBMaterialToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NBMaterialToast.swift; path = Pod/Classes/NBMaterialToast.swift; sourceTree = "<group>"; };
+		6CA27D68ECE943BBA40480FF738E2466 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		6CC7560BFA5687A9A75B453BFBBAB535 /* UIColor+BFPaperColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors-prefix.pch"; sourceTree = "<group>"; };
+		6E691E266766327F2A94BF4185517E77 /* Pods-MaterialDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDemo-resources.sh"; sourceTree = "<group>"; };
+		6EF38C95810D0994D7867CEF27F91A4C /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		705EC6D073B7E85BCF16142F0DD91FD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76702617F7B81BB5B1BDFE0A4993702C /* UILayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutGuide+Extensions.swift"; path = "Source/UILayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		7805E3328634150706FAAFC1CDCCE87E /* UIColor_BFPaperColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_BFPaperColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B23075BF90D6771AF009B986218A71A /* Pods-MaterialDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialDemo-frameworks.sh"; sourceTree = "<group>"; };
+		7E0DECC18CC5D509C660FF718AB8C83B /* BFPaperButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BFPaperButton.modulemap; sourceTree = "<group>"; };
+		7E2DE51BF98B3311DCE23269994AC2FF /* Pods-MaterialDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E78E252F505E6921E4020C1B2F2412F /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		835D2D94E5554F57414CDBB0F5523343 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		85663A6CE1DEB135753671ACC66E5A72 /* Pods-MaterialDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8E507865875AB0F4FA97FF5148CC05C4 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		924D6B8D8E70A5603D85A207D418ED8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7B43E62E56E20104737388B3E8F851 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		9EFC74DC5C2C3DA090064FDC6D865583 /* NBMaterialDialogIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NBMaterialDialogIOS.modulemap; sourceTree = "<group>"; };
+		A111569F5DB234B7296AB69ECB117F93 /* BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFPaperButton-dummy.m"; sourceTree = "<group>"; };
+		A29C34351BC2D431EA4273721B0C5383 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		A3FDE5FA3BAE9DEA9D76FB9A3CD1C584 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		A990FB779B87EBFC41B635E099A10FDA /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		B645D21D48DA19F11E15D7A976FB78FF /* NBMaterialDialogIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NBMaterialDialogIOS.framework; path = NBMaterialDialogIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2EC943A169D8BD148D8F47E5370F83 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		BBAD0EC3FBA9FA41AEB90FDD5D5D61A7 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		BBF59759B9BC81D8352BC8086B44ECCE /* UIColor+BFPaperColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor+BFPaperColors.xcconfig"; sourceTree = "<group>"; };
+		C04A786A95D4DB3E0BAD01FE392D54C2 /* NBMaterialLoadingDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NBMaterialLoadingDialog.swift; path = Pod/Classes/NBMaterialLoadingDialog.swift; sourceTree = "<group>"; };
+		C3B8EC81DE68815BF843A52D2BBDEBC3 /* Pods-MaterialDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C82632B68B871BEF191855153223E3E7 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFCAE45AE551862CFC58B680A6DF545 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		D103B19622AAED6C67394B7FA68C0FD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C9CC1CEB4595DAAA78FF5C92FE29DB /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		D6BE5F2744BCFE1E18B69A72E8427CDF /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		D715E5A776C043B5C5B7BBC955537878 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Medium.ttf"; path = "Pod/Assets/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D8F7309DF4AEC6407B98BD9B3A4800C1 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		DAEE051789B6A7B14B08602B9A5BCABF /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		DB4818A7591324A9C58EFBC045269A09 /* NBConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NBConfig.swift; path = Pod/Classes/NBConfig.swift; sourceTree = "<group>"; };
+		DC569FFA147E13BC3B3B313701D69D8D /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		DEBE5755AC92A2D9642602F259C9F5F1 /* NBMaterialSnackbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NBMaterialSnackbar.swift; path = Pod/Classes/NBMaterialSnackbar.swift; sourceTree = "<group>"; };
+		E4602B3B919DC43DC99CDADB2DDF636A /* Pods-MaterialDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialDemo-umbrella.h"; sourceTree = "<group>"; };
+		E46A38B3B973DFD5AC08FB3A24813D61 /* NBMaterialDialogIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NBMaterialDialogIOS-dummy.m"; sourceTree = "<group>"; };
+		E48AAACFE9E3E9DC47B42BFFDE69ABE4 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		E4A5E0A0157CEF1F11751FAC5574073E /* BFPaperButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BFPaperButton.framework; path = BFPaperButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87E7AD2C08B47C7A26615F4E088445E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D414A6EF7ADC2F76FED557B51788B0 /* UIFont+Roboto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Roboto.swift"; path = "Pod/Classes/UIFont+Roboto.swift"; sourceTree = "<group>"; };
+		E96CF5205263EE4FD5092D9024B1B3DD /* NBMaterialCircularActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NBMaterialCircularActivityIndicator.swift; path = Pod/Classes/NBMaterialCircularActivityIndicator.swift; sourceTree = "<group>"; };
+		EDC672C7C4071D304D50EEDF0BA7CDBE /* Pods_MaterialDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaterialDemo.framework; path = "Pods-MaterialDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63DCAA1E34142EC85CE4E724BB55104 /* BFPaperButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BFPaperButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BB9D8310CCB420A2A6705D4F467055 /* Pods-MaterialDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7EA89280F47C6C05F9BDFB78B443AE0 /* NBMaterialAlertDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NBMaterialAlertDialog.swift; path = Pod/Classes/NBMaterialAlertDialog.swift; sourceTree = "<group>"; };
+		FF22CA7DD9F8761012CFC9A00CF62C92 /* UIColor+BFPaperColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIColor+BFPaperColors.modulemap"; sourceTree = "<group>"; };
+		FF7201D9BBE44893D35E0731E9F975C2 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BFPaperColors.h"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478B4BA639357CE9B4F609773BB39827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDAD0AD13D89C63B2DCA30083109CB4 /* Foundation.framework in Frameworks */,
+				49963D30A5D30C4E0BBBFDD9AC9E26E3 /* UIColor_BFPaperColors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563B99B61082E9BE4DA75E5A3F2B786E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3B1E426669990DCD893FE12A726B74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDEFA35481ED4C9F148411B5AA42676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB407694C5FBD60DA733756829FAB3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0DFF2FDBC78DB4A33C8301FD360ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8ECF0301EABCCEE395592CBA042E43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D1FE057367FFE7B4CAB24E260B856C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E520C076C3FDFC401D07DAF8BF8180DD /* BFPaperButton.framework in Frameworks */,
+				3B6AB8E0C553D3F3C4931E8322A8F4A3 /* Foundation.framework in Frameworks */,
+				33FFA75599B4E81B4B74B9584B5A85C4 /* UIColor_BFPaperColors.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277D56A6AF64F17CA19E00C570FCD515 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D103B19622AAED6C67394B7FA68C0FD8 /* Info.plist */,
+				BBAD0EC3FBA9FA41AEB90FDD5D5D61A7 /* SnapKit.modulemap */,
+				9E7B43E62E56E20104737388B3E8F851 /* SnapKit.xcconfig */,
+				66266264350D852577F88107A5047E00 /* SnapKit-dummy.m */,
+				E48AAACFE9E3E9DC47B42BFFDE69ABE4 /* SnapKit-prefix.pch */,
+				3F05E1D38B58F43129C1AD5ABE46DF2B /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		2CFE24A0A22B27358640E23C564EFB5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5E0A0157CEF1F11751FAC5574073E /* BFPaperButton.framework */,
+				B645D21D48DA19F11E15D7A976FB78FF /* NBMaterialDialogIOS.framework */,
+				EDC672C7C4071D304D50EEDF0BA7CDBE /* Pods_MaterialDemo.framework */,
+				C82632B68B871BEF191855153223E3E7 /* SnapKit.framework */,
+				1DDA42B0A45676A8EA9865C200F515E5 /* UIColor_BFPaperColors.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4019B7B10F112586FFD43D8FD3560D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F63DCAA1E34142EC85CE4E724BB55104 /* BFPaperButton.framework */,
+				7805E3328634150706FAAFC1CDCCE87E /* UIColor_BFPaperColors.framework */,
+				96967457361CBC26AC1D4C058DD5E09D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CB5EA5B3046A26A00DD973851301863 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E48181BE77F7E46B33E4F957CF49818 /* BFPaperButton */,
+				8ACDF07F13B6F652C302A17916359366 /* NBMaterialDialogIOS */,
+				A2731B3ACEBED386FE741566B7F84CD6 /* SnapKit */,
+				8E3BC66F2D13F058327C971ACBF2F035 /* UIColor+BFPaperColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7711A35B5B0C296573C9B10E1129E4AD /* Pods-MaterialDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03DD879999FF50CA74462DCF3A6A6D1E /* Info.plist */,
+				26289320CDFC0D42BBF2E63C098685ED /* Pods-MaterialDemo.modulemap */,
+				7E2DE51BF98B3311DCE23269994AC2FF /* Pods-MaterialDemo-acknowledgements.markdown */,
+				F6BB9D8310CCB420A2A6705D4F467055 /* Pods-MaterialDemo-acknowledgements.plist */,
+				5ABB649F4617F5E1D187B5EC36CF48E8 /* Pods-MaterialDemo-dummy.m */,
+				7B23075BF90D6771AF009B986218A71A /* Pods-MaterialDemo-frameworks.sh */,
+				6E691E266766327F2A94BF4185517E77 /* Pods-MaterialDemo-resources.sh */,
+				E4602B3B919DC43DC99CDADB2DDF636A /* Pods-MaterialDemo-umbrella.h */,
+				C3B8EC81DE68815BF843A52D2BBDEBC3 /* Pods-MaterialDemo.debug.xcconfig */,
+				85663A6CE1DEB135753671ACC66E5A72 /* Pods-MaterialDemo.release.xcconfig */,
+			);
+			name = "Pods-MaterialDemo";
+			path = "Target Support Files/Pods-MaterialDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4019B7B10F112586FFD43D8FD3560D02 /* Frameworks */,
+				5CB5EA5B3046A26A00DD973851301863 /* Pods */,
+				2CFE24A0A22B27358640E23C564EFB5C /* Products */,
+				E3A70C9759433A3912BC2AF5B1D08099 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8ACDF07F13B6F652C302A17916359366 /* NBMaterialDialogIOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB4818A7591324A9C58EFBC045269A09 /* NBConfig.swift */,
+				F7EA89280F47C6C05F9BDFB78B443AE0 /* NBMaterialAlertDialog.swift */,
+				E96CF5205263EE4FD5092D9024B1B3DD /* NBMaterialCircularActivityIndicator.swift */,
+				1625A7879B1FF865C22B39733E4669FC /* NBMaterialDialog.swift */,
+				C04A786A95D4DB3E0BAD01FE392D54C2 /* NBMaterialLoadingDialog.swift */,
+				DEBE5755AC92A2D9642602F259C9F5F1 /* NBMaterialSnackbar.swift */,
+				6C0BCE5FB73F4130AB15569444C7B8B0 /* NBMaterialToast.swift */,
+				2B39A993E3597B037B49DEF5EABB1B39 /* UIColor+Hex.swift */,
+				E8D414A6EF7ADC2F76FED557B51788B0 /* UIFont+Roboto.swift */,
+				98ECF08B34A691F006680DDD8CAA138A /* Resources */,
+				91B2FA40F2FAB30EAB2BA23DD2F806F7 /* Support Files */,
+			);
+			name = NBMaterialDialogIOS;
+			path = NBMaterialDialogIOS;
+			sourceTree = "<group>";
+		};
+		8E3BC66F2D13F058327C971ACBF2F035 /* UIColor+BFPaperColors */ = {
+			isa = PBXGroup;
+			children = (
+				FF7201D9BBE44893D35E0731E9F975C2 /* UIColor+BFPaperColors.h */,
+				5F08E00782CC4C756107F53BCBDAE445 /* UIColor+BFPaperColors.m */,
+				D402F2C251603B3E96BD0000DFBEF993 /* Support Files */,
+			);
+			name = "UIColor+BFPaperColors";
+			path = "UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		91B2FA40F2FAB30EAB2BA23DD2F806F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				924D6B8D8E70A5603D85A207D418ED8C /* Info.plist */,
+				9EFC74DC5C2C3DA090064FDC6D865583 /* NBMaterialDialogIOS.modulemap */,
+				05905DA25521B5EA8A832F69D83619B5 /* NBMaterialDialogIOS.xcconfig */,
+				E46A38B3B973DFD5AC08FB3A24813D61 /* NBMaterialDialogIOS-dummy.m */,
+				69C6C101A8A4BC37BE98F940D26AA14F /* NBMaterialDialogIOS-prefix.pch */,
+				16BA5461C57C0300000CAD3BBE86CFBB /* NBMaterialDialogIOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NBMaterialDialogIOS";
+			sourceTree = "<group>";
+		};
+		96967457361CBC26AC1D4C058DD5E09D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				705EC6D073B7E85BCF16142F0DD91FD8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		98ECF08B34A691F006680DDD8CAA138A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D715E5A776C043B5C5B7BBC955537878 /* Roboto-Medium.ttf */,
+				6231A0FCF151321243D61529A257F742 /* Roboto-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9E48181BE77F7E46B33E4F957CF49818 /* BFPaperButton */ = {
+			isa = PBXGroup;
+			children = (
+				3FA83E5BC92E92060E4D6FE38FED24A5 /* BFPaperButton.h */,
+				0378664B15960B701740E0D738EE1EAF /* BFPaperButton.m */,
+				CDDBE605BE564B39D01DB4BE243BE0A8 /* Support Files */,
+			);
+			name = BFPaperButton;
+			path = BFPaperButton;
+			sourceTree = "<group>";
+		};
+		A2731B3ACEBED386FE741566B7F84CD6 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				6CA27D68ECE943BBA40480FF738E2466 /* Constraint.swift */,
+				A29C34351BC2D431EA4273721B0C5383 /* ConstraintAttributes.swift */,
+				68F4ACB1FA857C2853B6C3486C8AA9D4 /* ConstraintConfig.swift */,
+				37E4130F20734475A440C379B4F7E711 /* ConstraintConstantTarget.swift */,
+				A3FDE5FA3BAE9DEA9D76FB9A3CD1C584 /* ConstraintDescription.swift */,
+				3B5EC54305751909959B8282FE93E6D5 /* ConstraintDSL.swift */,
+				59E09FED5CFD581A4F1E323EFDCC11C4 /* ConstraintInsets.swift */,
+				CFFCAE45AE551862CFC58B680A6DF545 /* ConstraintInsetTarget.swift */,
+				835D2D94E5554F57414CDBB0F5523343 /* ConstraintItem.swift */,
+				DAEE051789B6A7B14B08602B9A5BCABF /* ConstraintLayoutGuide.swift */,
+				4FCD913EE0464CA5173DDF688023D378 /* ConstraintLayoutGuideDSL.swift */,
+				DC569FFA147E13BC3B3B313701D69D8D /* ConstraintLayoutSupport.swift */,
+				660394CAB5C78BEE33A59E160F2C660E /* ConstraintLayoutSupportDSL.swift */,
+				7E78E252F505E6921E4020C1B2F2412F /* ConstraintMaker.swift */,
+				D6BE5F2744BCFE1E18B69A72E8427CDF /* ConstraintMakerEditable.swift */,
+				BB2EC943A169D8BD148D8F47E5370F83 /* ConstraintMakerExtendable.swift */,
+				02152D18822725969BFB9D207B62BF0F /* ConstraintMakerFinalizable.swift */,
+				32CD08D66606B12FE8CDEF308238E478 /* ConstraintMakerPriortizable.swift */,
+				0D7F2C156504E754EF5BF3047F821E6A /* ConstraintMakerRelatable.swift */,
+				A990FB779B87EBFC41B635E099A10FDA /* ConstraintMultiplierTarget.swift */,
+				27356B37A7C976337984370568B947DE /* ConstraintOffsetTarget.swift */,
+				2D4FC1DF550C603F71EDA7ED8AF3A1E7 /* ConstraintPriorityTarget.swift */,
+				D4C9CC1CEB4595DAAA78FF5C92FE29DB /* ConstraintRelatableTarget.swift */,
+				1EC1DA07F48051BD3932CBD55EC76302 /* ConstraintRelation.swift */,
+				8E507865875AB0F4FA97FF5148CC05C4 /* ConstraintView.swift */,
+				164160C1D616284000602868F1AE0270 /* ConstraintView+Extensions.swift */,
+				6EF38C95810D0994D7867CEF27F91A4C /* ConstraintViewDSL.swift */,
+				1D50877907CBB804CE0634744B570BDC /* Debugging.swift */,
+				6AD451A3932F2A7459F64EAAD1DA59C9 /* LayoutConstraint.swift */,
+				76702617F7B81BB5B1BDFE0A4993702C /* UILayoutGuide+Extensions.swift */,
+				D8F7309DF4AEC6407B98BD9B3A4800C1 /* UILayoutSupport+Extensions.swift */,
+				277D56A6AF64F17CA19E00C570FCD515 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		CDDBE605BE564B39D01DB4BE243BE0A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E0DECC18CC5D509C660FF718AB8C83B /* BFPaperButton.modulemap */,
+				56F7E0F1471BF3A2B8BBF8622F970431 /* BFPaperButton.xcconfig */,
+				A111569F5DB234B7296AB69ECB117F93 /* BFPaperButton-dummy.m */,
+				33CC3205A54D29A7ED399DC16515C9E7 /* BFPaperButton-prefix.pch */,
+				69C224FE217D5AC5E8DB0EA2343D3D65 /* BFPaperButton-umbrella.h */,
+				E87E7AD2C08B47C7A26615F4E088445E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BFPaperButton";
+			sourceTree = "<group>";
+		};
+		D402F2C251603B3E96BD0000DFBEF993 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BFC6E310AA5AC649958676C335385CE /* Info.plist */,
+				FF22CA7DD9F8761012CFC9A00CF62C92 /* UIColor+BFPaperColors.modulemap */,
+				BBF59759B9BC81D8352BC8086B44ECCE /* UIColor+BFPaperColors.xcconfig */,
+				0C97CA108D41A68ACDCC4E5792BDE738 /* UIColor+BFPaperColors-dummy.m */,
+				6CC7560BFA5687A9A75B453BFBBAB535 /* UIColor+BFPaperColors-prefix.pch */,
+				347E9410D392F5EB85D90E8621ED51CC /* UIColor+BFPaperColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		E3A70C9759433A3912BC2AF5B1D08099 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7711A35B5B0C296573C9B10E1129E4AD /* Pods-MaterialDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		385C2F276A455B3485250E95ED663135 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC417D048FEC6A46B8E2244C11870952 /* Pods-MaterialDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A51D7C69757F19ED35FBE66BE230AB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D5490156ABE3E9126ADF5F3F2ACAB7 /* NBMaterialDialogIOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B71D410B455590727338A9DE112A437 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B13F994443BB04A0F58B387D770073 /* UIColor+BFPaperColors-umbrella.h in Headers */,
+				570E85506C0E119AE3F977F2FFD76AB5 /* UIColor+BFPaperColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DA368BD179FC5C2B5002019DA6A94B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7485AFDD78C266D9ED3E953D26A1E6 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6435A04ED3D78814DC2BF33F3B1757E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9F8DFFA651D64E8A565899DDB9FDEE /* BFPaperButton-umbrella.h in Headers */,
+				7B3553E9657C9E71F7E4BE52E750907D /* BFPaperButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CDBCB4B0EB135DB2F250570A4FE96E9 /* BFPaperButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84FC1B951A688ABD10045E79F9362FA /* Build configuration list for PBXNativeTarget "BFPaperButton" */;
+			buildPhases = (
+				9320E4496F7BAABAFD6CB312E2E69115 /* Sources */,
+				478B4BA639357CE9B4F609773BB39827 /* Frameworks */,
+				F6435A04ED3D78814DC2BF33F3B1757E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E88BB356BCC91AD9F816AD6139E14C /* PBXTargetDependency */,
+			);
+			name = BFPaperButton;
+			productName = BFPaperButton;
+			productReference = E4A5E0A0157CEF1F11751FAC5574073E /* BFPaperButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64A642A68B133878F0911D8092B968B0 /* UIColor+BFPaperColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D82E6987BF88C39690B2031051EEA1 /* Build configuration list for PBXNativeTarget "UIColor+BFPaperColors" */;
+			buildPhases = (
+				8609DFF5A295EC17A69D77C6FAA9199F /* Sources */,
+				5EDEFA35481ED4C9F148411B5AA42676 /* Frameworks */,
+				5B71D410B455590727338A9DE112A437 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColor+BFPaperColors";
+			productName = "UIColor+BFPaperColors";
+			productReference = 1DDA42B0A45676A8EA9865C200F515E5 /* UIColor_BFPaperColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78FB164A53247DD38EA786451EC70E69 /* Pods-MaterialDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED92CC1B811E4C78C4274E4AF9D1CC0 /* Build configuration list for PBXNativeTarget "Pods-MaterialDemo" */;
+			buildPhases = (
+				CCA8CD46A1054E8CABA0FCF0ECBC6554 /* Sources */,
+				7D0DFF2FDBC78DB4A33C8301FD360ADB /* Frameworks */,
+				385C2F276A455B3485250E95ED663135 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F45C26B29801300C7A74D07AD3C0738 /* PBXTargetDependency */,
+				5CBB625CC130DADD4008D8005702C152 /* PBXTargetDependency */,
+				735D293D562769EBEFE178006C37952A /* PBXTargetDependency */,
+				C6B7DDA7A262EEE28A23813FB57931F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-MaterialDemo";
+			productName = "Pods-MaterialDemo";
+			productReference = EDC672C7C4071D304D50EEDF0BA7CDBE /* Pods_MaterialDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90B60B7D0F97682704ED3531D9A28254 /* NBMaterialDialogIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD1C8FC263C19B75C793F4C2E7188B8 /* Build configuration list for PBXNativeTarget "NBMaterialDialogIOS" */;
+			buildPhases = (
+				D3680D3A1151400E2DC06F39D7D1491A /* Sources */,
+				B6D1FE057367FFE7B4CAB24E260B856C /* Frameworks */,
+				6945ACD81B0705ACCAA5A3D971780DA5 /* Resources */,
+				3A51D7C69757F19ED35FBE66BE230AB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB370704E4316A21E4A18908FD0DCB0 /* PBXTargetDependency */,
+				FB2B17EE06E96AB616944AC2DBA04B21 /* PBXTargetDependency */,
+			);
+			name = NBMaterialDialogIOS;
+			productName = NBMaterialDialogIOS;
+			productReference = B645D21D48DA19F11E15D7A976FB78FF /* NBMaterialDialogIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2E15514FD13A96B937B0281C1A9A56C /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D73FB4C5CE939DE695CE648E9E3EADB /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				3DC340F18C7FAD3C5E02FBD4DE66B709 /* Sources */,
+				563B99B61082E9BE4DA75E5A3F2B786E /* Frameworks */,
+				89DA368BD179FC5C2B5002019DA6A94B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = C82632B68B871BEF191855153223E3E7 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2CFE24A0A22B27358640E23C564EFB5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CDBCB4B0EB135DB2F250570A4FE96E9 /* BFPaperButton */,
+				90B60B7D0F97682704ED3531D9A28254 /* NBMaterialDialogIOS */,
+				78FB164A53247DD38EA786451EC70E69 /* Pods-MaterialDemo */,
+				C2E15514FD13A96B937B0281C1A9A56C /* SnapKit */,
+				64A642A68B133878F0911D8092B968B0 /* UIColor+BFPaperColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6945ACD81B0705ACCAA5A3D971780DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD3CF076619C3C55691049FFC4DF585 /* Roboto-Medium.ttf in Resources */,
+				5A6109F5E25603BD301A069AACBC3784 /* Roboto-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC340F18C7FAD3C5E02FBD4DE66B709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E6FD40BE568323AF5FD4AC5F38BD93 /* Constraint.swift in Sources */,
+				EE536FF4EE0A5EB2C31CF9B898528074 /* ConstraintAttributes.swift in Sources */,
+				56667EA851D24CE342F01DE9D42EA5AE /* ConstraintConfig.swift in Sources */,
+				8C4D5C3F5E3FB02B645DE2670A18C2C8 /* ConstraintConstantTarget.swift in Sources */,
+				09676D086A0326C6F02BFB9D6C7B5DC8 /* ConstraintDescription.swift in Sources */,
+				612A1C7DEDFAD7FD9250F9B4F051B8B6 /* ConstraintDSL.swift in Sources */,
+				2A08AD9A90C61F4194E5BA60D66C7731 /* ConstraintInsets.swift in Sources */,
+				F4925E332ABE29AD5D7A5B383ECDA07B /* ConstraintInsetTarget.swift in Sources */,
+				3FFF40E6A3E0889CBA8A37D1CAC87DC8 /* ConstraintItem.swift in Sources */,
+				AFAB1089C667960F06A010ECB096BDDC /* ConstraintLayoutGuide.swift in Sources */,
+				D19BC64E40C9E1C1190588FAF63AEC9A /* ConstraintLayoutGuideDSL.swift in Sources */,
+				375B714C330FD122B4A1F6AC2DC14E80 /* ConstraintLayoutSupport.swift in Sources */,
+				781B23177ECB41B6BB0DE0CC1F505294 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				6AD4D2F79BC822EAD340F9FCB952BEA1 /* ConstraintMaker.swift in Sources */,
+				6F9ADAAEECF6B6900887D688DDC3230E /* ConstraintMakerEditable.swift in Sources */,
+				EA4D40513EDFA3A7CD8E30584A032302 /* ConstraintMakerExtendable.swift in Sources */,
+				16AB0017CE89CF644EA505211BE3E82B /* ConstraintMakerFinalizable.swift in Sources */,
+				9C61FA034AE7B37D3EF3F055397EAB8B /* ConstraintMakerPriortizable.swift in Sources */,
+				4C800271EE07135F568030E7C3A0A6AB /* ConstraintMakerRelatable.swift in Sources */,
+				3E14695942A92177CFEF57ADA5CFD509 /* ConstraintMultiplierTarget.swift in Sources */,
+				AF6C3719A264000D7E64539E0C622F1F /* ConstraintOffsetTarget.swift in Sources */,
+				AE0B195107A8D1643B36B3DC8A5C841E /* ConstraintPriorityTarget.swift in Sources */,
+				36C44618EB88E5E7661431AEF63B8C1F /* ConstraintRelatableTarget.swift in Sources */,
+				6033C38D676E02CA0515CA038E50D4E7 /* ConstraintRelation.swift in Sources */,
+				6CFF138DEC462E4997DC07D99193C377 /* ConstraintView+Extensions.swift in Sources */,
+				10D514ED9F517CA32E0E9A063D31B79E /* ConstraintView.swift in Sources */,
+				9D11D523975841B10BBFAA6E78DA1C99 /* ConstraintViewDSL.swift in Sources */,
+				92FF530CABA88A2D361AACF0FCBB3F94 /* Debugging.swift in Sources */,
+				BE9B5784654CC0B56E008F7F62DD13ED /* LayoutConstraint.swift in Sources */,
+				FAC34678F55B70570241F759D6EB9C7F /* SnapKit-dummy.m in Sources */,
+				CEB35003198EB2410C5EBC477975DAAC /* UILayoutGuide+Extensions.swift in Sources */,
+				C7DD1BD24FE5973CBB800E366A2C6BAE /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8609DFF5A295EC17A69D77C6FAA9199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1B71483D1062AF7D2BD4819B95CA36 /* UIColor+BFPaperColors-dummy.m in Sources */,
+				AC58A95AAB66B972C4F26D1ABA20221A /* UIColor+BFPaperColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9320E4496F7BAABAFD6CB312E2E69115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9C7143356E86995E35667F94786AC9 /* BFPaperButton-dummy.m in Sources */,
+				2853243F97B82F9E85E905E7305FC8AD /* BFPaperButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA8CD46A1054E8CABA0FCF0ECBC6554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4EF7BE1ADD85182EA00B46E57A2E03 /* Pods-MaterialDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3680D3A1151400E2DC06F39D7D1491A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDAC498500B5D64D922A4C104E518E3 /* NBConfig.swift in Sources */,
+				33CC9E82756170A93C5FEA134633881E /* NBMaterialAlertDialog.swift in Sources */,
+				33D7102EE8474DD8229A03BA5942612B /* NBMaterialCircularActivityIndicator.swift in Sources */,
+				FE1700BDA261F941441B501A7AC5DA47 /* NBMaterialDialog.swift in Sources */,
+				E4D5CA087F9F73B2B650A64B54B81CE4 /* NBMaterialDialogIOS-dummy.m in Sources */,
+				FC9BDC5E28619E82BC03D0B8C2DE2A9E /* NBMaterialLoadingDialog.swift in Sources */,
+				349E09FC49E32998352582EF7CECB4AA /* NBMaterialSnackbar.swift in Sources */,
+				30A9A9A0F3C176C8DF6BA6F7C3E294AC /* NBMaterialToast.swift in Sources */,
+				F4372ED786948903633FF92187524E73 /* UIColor+Hex.swift in Sources */,
+				1821C255B24FAA3FA5FE0D250F0A5AB1 /* UIFont+Roboto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F45C26B29801300C7A74D07AD3C0738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BFPaperButton;
+			target = 2CDBCB4B0EB135DB2F250570A4FE96E9 /* BFPaperButton */;
+			targetProxy = 48073E3062E904EB4E20E4A60FE5154B /* PBXContainerItemProxy */;
+		};
+		55E88BB356BCC91AD9F816AD6139E14C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor+BFPaperColors";
+			target = 64A642A68B133878F0911D8092B968B0 /* UIColor+BFPaperColors */;
+			targetProxy = 89FD0CC664DEF479FC3DF81844A041DF /* PBXContainerItemProxy */;
+		};
+		5CBB625CC130DADD4008D8005702C152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NBMaterialDialogIOS;
+			target = 90B60B7D0F97682704ED3531D9A28254 /* NBMaterialDialogIOS */;
+			targetProxy = DD52BE0A80A54981020BB309AB57EFBE /* PBXContainerItemProxy */;
+		};
+		735D293D562769EBEFE178006C37952A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = C2E15514FD13A96B937B0281C1A9A56C /* SnapKit */;
+			targetProxy = 2610AC355FA8E0ED986D28A4434A6E65 /* PBXContainerItemProxy */;
+		};
+		BFB370704E4316A21E4A18908FD0DCB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BFPaperButton;
+			target = 2CDBCB4B0EB135DB2F250570A4FE96E9 /* BFPaperButton */;
+			targetProxy = 6036AFF35317B0FE2C1A0DBCE73CBB09 /* PBXContainerItemProxy */;
+		};
+		C6B7DDA7A262EEE28A23813FB57931F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor+BFPaperColors";
+			target = 64A642A68B133878F0911D8092B968B0 /* UIColor+BFPaperColors */;
+			targetProxy = EBF66D1E0EE16A2366862C06457D2773 /* PBXContainerItemProxy */;
+		};
+		FB2B17EE06E96AB616944AC2DBA04B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor+BFPaperColors";
+			target = 64A642A68B133878F0911D8092B968B0 /* UIColor+BFPaperColors */;
+			targetProxy = E596EEF1A8BFD91CC2238CAFAD8E3B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		368A36DA7274796926FB56A804D34081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF59759B9BC81D8352BC8086B44ECCE /* UIColor+BFPaperColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor+BFPaperColors/UIColor+BFPaperColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor+BFPaperColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor+BFPaperColors/UIColor+BFPaperColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_BFPaperColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C7C001927B68FBAB0D6BF3D5D872D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B8EC81DE68815BF843A52D2BBDEBC3 /* Pods-MaterialDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaterialDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaterialDemo/Pods-MaterialDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MaterialDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		590D6E7A46C549D6E614F888D214F762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F7E0F1471BF3A2B8BBF8622F970431 /* BFPaperButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BFPaperButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BFPaperButton/BFPaperButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BFPaperButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BBF44C9EA879372C60FD7F0362A0C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05905DA25521B5EA8A832F69D83619B5 /* NBMaterialDialogIOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NBMaterialDialogIOS/NBMaterialDialogIOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NBMaterialDialogIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NBMaterialDialogIOS/NBMaterialDialogIOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NBMaterialDialogIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E3945CD64A0A66479D65BA26CC23ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F7E0F1471BF3A2B8BBF8622F970431 /* BFPaperButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BFPaperButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BFPaperButton/BFPaperButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BFPaperButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		856752B0CED2697CA84FD47747A91A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85663A6CE1DEB135753671ACC66E5A72 /* Pods-MaterialDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MaterialDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaterialDemo/Pods-MaterialDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MaterialDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1F83394454DA833AB8AF921D83D54CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF59759B9BC81D8352BC8086B44ECCE /* UIColor+BFPaperColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor+BFPaperColors/UIColor+BFPaperColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor+BFPaperColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor+BFPaperColors/UIColor+BFPaperColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_BFPaperColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE77C1165A7DB86A291ACCF9126410FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05905DA25521B5EA8A832F69D83619B5 /* NBMaterialDialogIOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NBMaterialDialogIOS/NBMaterialDialogIOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NBMaterialDialogIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NBMaterialDialogIOS/NBMaterialDialogIOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NBMaterialDialogIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D987F43706D37C79FE3204E37F6808D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7B43E62E56E20104737388B3E8F851 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E560947D0437051A3BFC0D98AA4BC75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7B43E62E56E20104737388B3E8F851 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D73FB4C5CE939DE695CE648E9E3EADB /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D987F43706D37C79FE3204E37F6808D1 /* Debug */,
+				E560947D0437051A3BFC0D98AA4BC75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED92CC1B811E4C78C4274E4AF9D1CC0 /* Build configuration list for PBXNativeTarget "Pods-MaterialDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7C001927B68FBAB0D6BF3D5D872D84 /* Debug */,
+				856752B0CED2697CA84FD47747A91A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD1C8FC263C19B75C793F4C2E7188B8 /* Build configuration list for PBXNativeTarget "NBMaterialDialogIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBF44C9EA879372C60FD7F0362A0C6D /* Debug */,
+				CE77C1165A7DB86A291ACCF9126410FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84FC1B951A688ABD10045E79F9362FA /* Build configuration list for PBXNativeTarget "BFPaperButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590D6E7A46C549D6E614F888D214F762 /* Debug */,
+				6E3945CD64A0A66479D65BA26CC23ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D82E6987BF88C39690B2031051EEA1 /* Build configuration list for PBXNativeTarget "UIColor+BFPaperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A36DA7274796926FB56A804D34081 /* Debug */,
+				C1F83394454DA833AB8AF921D83D54CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

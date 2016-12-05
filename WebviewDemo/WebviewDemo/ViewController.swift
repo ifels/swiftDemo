@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import Kingfisher
 
 class ViewController: UIViewController,UIWebViewDelegate{
 
@@ -45,18 +46,34 @@ class ViewController: UIViewController,UIWebViewDelegate{
     }
     
     func setupViews2(){
+        
+        let scrollView = UIScrollView()
         let imageView = UIImageView()
-        view.addSubview(imageView)
+        view.addSubview(scrollView)
+        scrollView.addSubview(imageView)
         
         
-        imageView.snp.makeConstraints{ make in
+        let url = URL(string: "https://ifels.cn/hualipu_instruction.png")!
+        imageView.kf.setImage(with: url,
+                              placeholder: nil,
+                              options: [.transition(.fade(1))],
+                              progressBlock: nil,
+                              completionHandler: nil)
+        
+        
+        scrollView.snp.makeConstraints{ make in
             make.left.equalTo(view)
             make.top.equalTo(view).offset(60)
             make.right.equalTo(view)
-            make.bottom.equalTo(view)
+            make.bottom.equalTo(2000)
         }
         
-        imageView.image = UIImage(named: "hualipu_instruction")
+        imageView.snp.makeConstraints{ make in
+            make.left.equalTo(scrollView)
+            make.top.equalTo(scrollView)
+            make.right.equalTo(scrollView)
+        }
+        //imageView.image = UIImage(named: "hualipu_instruction")
     }
     
 
