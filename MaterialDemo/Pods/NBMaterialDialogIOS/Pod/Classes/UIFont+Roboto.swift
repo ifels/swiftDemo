@@ -10,12 +10,12 @@ private class FontLoader {
     class func loadFont(_ name: String) {
         let bundle = Bundle(for: FontLoader.self)
         let fontURL = bundle.url(forResource: name, withExtension: "ttf")
-
+        
         let data = try! Data(contentsOf: fontURL!)
-
+        
         let provider = CGDataProvider(data: data as CFData)
         let font = CGFont(provider!)
-
+        
         var error: Unmanaged<CFError>?
         if !CTFontManagerRegisterGraphicsFont(font, &error) {
             let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
@@ -36,7 +36,7 @@ public extension DispatchQueue {
      - parameter token: A unique reverse DNS style name such as com.vectorform.<name> or a GUID
      - parameter block: Block to execute once
      */
-    public class func once(token: String, block:@noescape(Void)->Void) {
+    public class func once(token: String, block: (Void)->Void) {
         objc_sync_enter(self); defer { objc_sync_exit(self) }
         
         if _onceTracker.contains(token) {
@@ -77,5 +77,5 @@ public extension UIFont {
         
         return UIFont(name: name, size: fontSize)!
     }
-
+    
 }
